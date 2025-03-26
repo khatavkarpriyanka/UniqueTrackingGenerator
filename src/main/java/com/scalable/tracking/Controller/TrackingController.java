@@ -1,7 +1,6 @@
 package com.scalable.tracking.Controller;
 
 import com.scalable.tracking.Model.TrackingResponse;
-import com.scalable.tracking.DTO.ApiResponse;
 import com.scalable.tracking.Service.TrackingService;
 import com.scalable.tracking.Validations.InputValidations;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.scalable.tracking.DTO.ApiResponse.Status;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.List;
