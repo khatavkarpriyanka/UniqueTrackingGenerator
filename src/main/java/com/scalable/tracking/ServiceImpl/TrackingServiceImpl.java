@@ -79,6 +79,8 @@ public class TrackingServiceImpl implements TrackingService{
     }
 
     public String getNodeId() {
+        // When we deploy this on prod we can fetch the nodeId explicitly
+        // As we are setting up on local node ID is initialized directly
         String podName = System.getenv("HOSTNAME");
         if (podName == null || !podName.matches(".*-\\d+")) {
             podName = "app-01";

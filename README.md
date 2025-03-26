@@ -12,7 +12,7 @@ Setup and Installation
 
 	1. Clone the Repository
 
-		git clone <repository-url>
+		git clone https://github.com/khatavkarpriyanka/UniqueTrackingGenerator.git
 		cd scalable-tracking
 
 	2. Build the Project
